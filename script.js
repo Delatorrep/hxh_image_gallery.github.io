@@ -45,7 +45,6 @@ const images = document.querySelectorAll('.mySlides img');
 
 images.forEach((image, index) => {
   image.src = shuffledImages[index];
-  image.alt = `Description for Image ${index + 1}`;
 });
 
 let slideIndex = 0;
