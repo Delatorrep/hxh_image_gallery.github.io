@@ -35,6 +35,7 @@ const imageUrls = [
   // Add more image URLs here...
 ];
 
+
 // Function to shuffle the image URLs
 function shuffle(array) {
   let currentIndex = array.length;
@@ -76,9 +77,9 @@ let slideIndex = 0;
 const slides = document.querySelectorAll('.mySlides');
 
 function showSlides() {
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = 'none';
-  }
+  slides.forEach((slide) => {
+    slide.style.display = 'none';
+  });
 
   slideIndex++;
   if (slideIndex > slides.length) {
