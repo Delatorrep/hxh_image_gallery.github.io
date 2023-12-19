@@ -59,14 +59,14 @@ const shuffledImages = shuffle(imageUrls);
 // Create image elements and append them to the slideshow container
 const slideshowContainer = document.getElementById('slideshowContainer');
 
-shuffledImages.forEach((imageUrl, index) => {
+shuffledImages.forEach((imageUrl) => {
   const slide = document.createElement('div');
   slide.classList.add('mySlides', 'fade');
 
   const image = document.createElement('img');
   image.src = imageUrl;
-  image.alt = `Description for Image ${index + 1}`;
   image.style.width = '100%';
+  image.style.height = 'auto'; // Maintain aspect ratio
 
   slide.appendChild(image);
   slideshowContainer.appendChild(slide);
