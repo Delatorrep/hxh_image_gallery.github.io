@@ -1,6 +1,6 @@
 // Define your image URLs
 const imageUrls = [
- 'https://media.giphy.com/media/5argtR58g51Xq/giphy.gif',
+  'https://media.giphy.com/media/5argtR58g51Xq/giphy.gif',
   'https://tenor.com/bpIcE.gif',
   'https://preview.redd.it/99-hxh-is-easily-top-3-best-looking-anime-of-all-time-with-v0-fr6mqmcgdm791.jpg?auto=webp&s=1a336bd9252626f60f7917a2e340dcf3b9d67886',
   'https://tenor.com/bRWDn.gif',
@@ -73,12 +73,11 @@ shuffledImages.forEach((imageUrl, index) => {
 
 // Slideshow logic
 let slideIndex = 0;
+const slides = document.querySelectorAll('.mySlides');
 
 function showSlides() {
-  const slides = document.getElementsByClassName("mySlides");
-
   for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+    slides[i].style.display = 'none';
   }
 
   slideIndex++;
@@ -86,8 +85,5 @@ function showSlides() {
     slideIndex = 1;
   }
 
-  slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
-}
-
-showSlides(); // Start the slideshow
+  slides[slideIndex - 1].style.display = 'block';
+  setTimeout(showSlides, 5000); // Change imag
