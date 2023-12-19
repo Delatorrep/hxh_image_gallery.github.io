@@ -15,8 +15,7 @@ body {
   animation: fadeInOut 3s infinite; /* Fade in/out animation */
 }
 
-@keyframes fadeInOut {
-  0% { opacity: 0; }
-  50% { opacity: 1; }
-  100% { opacity: 0; }
+.mySlides img {
+  width: 100%; /* Let the images occupy their natural width */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
 }
