@@ -1,21 +1,12 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
+/* Add CSS for your slideshow container and images */
 .slideshow-container {
-  max-width: 800px;
-  position: relative;
-  margin: auto;
-}
-
-.mySlides {
-  display: none;
-  animation: fadeInOut 3s infinite; /* Fade in/out animation */
+  width: 100%; /* Adjust width if needed */
+  height: auto;
+  text-align: center;
 }
 
 .mySlides img {
-  width: 100%; /* Let the images occupy their natural width */
-  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  width: 300px; /* Set your desired width */
+  height: auto; /* Height auto maintains aspect ratio */
+  object-fit: contain; /* Maintain aspect ratio without stretching */
 }
