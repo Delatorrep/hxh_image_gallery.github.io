@@ -1,17 +1,19 @@
 /* Add CSS for your slideshow container and images */
 .slideshow-container {
-  width: 100%; /* Adjust width if needed */
+  width: 100%;
   height: auto;
   text-align: center;
 }
 
 .mySlides {
-  width: 600px; /* Set your desired fixed width */
-  margin: 0 auto;
+  width: 400px; /* Set your desired fixed width */
+  height: 300px; /* Set your desired fixed height */
+  overflow: hidden; /* Hide overflowing content */
+  margin: 0 auto; /* Center horizontally */
 }
 
 .mySlides img {
   width: 100%;
-  height: auto;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and fill the container */
 }
