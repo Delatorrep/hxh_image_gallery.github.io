@@ -1,37 +1,52 @@
 // Define your image URLs
 const imageUrls = [
-  'https://media.giphy.com/media/5argtR58g51Xq/giphy.gif',
+    'https://media.giphy.com/media/5argtR58g51Xq/giphy.gif',
+  
   'https://tenor.com/bpIcE.gif',
-  'https://preview.redd.it/99-hxh-is-easily-top-3-best-looking-anime-of-all-time-with-v0-fr6mqmcgdm791.jpg?auto=webp&s=1a336bd9252626f60f7917a2e340dcf3b9d67886',
-  'https://tenor.com/bRWDn.gif',
-  'https://tenor.com/bUtX8.gif',
-  'https://tenor.com/bG0ia.gif',
-  'https://tenor.com/bJDgJ.gif',
-  'https://tenor.com/bvPzN.gif',
-  'https://tenor.com/bvPzT.gif',
-  'https://tenor.com/1EKB.gif',
-  'https://tenor.com/bETme.gif',
-  'https://tenor.com/bvPAS.gif',
-  'https://tenor.com/bBCFU.gif',
-  'https://tenor.com/bipVf.gif',
-  'https://tenor.com/bKXBi.gif',
-  'https://tenor.com/bCtRe.gif',
-  'https://tenor.com/boY49.gif',
-  'https://tenor.com/bMdcI.gif',
-  'https://media.giphy.com/media/nvPNlAagUMWn6/giphy.gif',
+
+  'https://giffiles.alphacoders.com/143/143335.gif',
+
+ 	'https://media.giphy.com/media/qDO6QPt4VczVS/giphy.gif',
+
   'https://media.giphy.com/media/r2ITSWBYmlhhC/giphy.gif',
+
   'https://media.giphy.com/media/v89DfOSM5DtRu/giphy.gif',
+
   'https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/8-hisoka-nguyen-hai.jpg',
+
   'https://img.cdn-pictorem.com/uploads/collection/E/EL5KID4GOS/900_Piand-Graphics_HISOKA_PNG.jpg',
-  'https://static.printler.com/cache/5/c/0/8/8/5/5c0885fcc0c138273d22d3941fa8be4e6116789f.jpg',
+
   'https://pbs.twimg.com/media/FgAkQg2WQAAKii3.jpg:large',
+
   'https://static.wixstatic.com/media/504651_4e2abfcb246446889512df926f87d612~mv2.gif',
+
   'https://s1.zerochan.net/Killua.Zoldyck.600.3858144.jpg',
-  'https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/7-hisoka-nguyen-hai.jpg',
+
   'https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/hisoka-illumi-nguyen-hai.jpg',
-  'https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/10-fighter-hunter-lon-najara.jpg',
+
   'https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/35-hxh-anime-lon-najara.jpg',
-  'https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/hisoka-justin-gian-santos.jpg',
+
+ 	'https://media.giphy.com/media/ug36NeVMTXcZO/giphy.gif',
+
+ 	'https://media.giphy.com/media/I1KQl6AZ6vnIQ/giphy.gif',
+
+ 	'https://media.giphy.com/media/irZQA0LSRtpWE/giphy.gif',
+
+ 	'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a290752-d7eb-45e3-aa31-8e71b544cde0/ddb4kmf-9211ac7a-b1d1-4d68-b8e3-eef40c2b237f.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBhMjkwNzUyLWQ3ZWItNDVlMy1hYTMxLThlNzFiNTQ0Y2RlMFwvZGRiNGttZi05MjExYWM3YS1iMWQxLTRkNjgtYjhlMy1lZWY0MGMyYjIzN2YuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.B4OZZlX4wIUThM6QCokEzPPrUMQZLHNyOV7KplI9f70',
+
+ 	'https://steamuserimages-a.akamaihd.net/ugc/640994505185168020/11B5F86D582B699CC551FBFD2B214ACC75FFC5AC/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false',
+
+ 	'https://images.squarespace-cdn.com/content/v1/5d23cc32a336c10001638248/1629258741260-EIYHEBWQ4BZBUJF737K4/hisoka-card.gif',
+
+ 	'https://static.wikia.nocookie.net/hunter-x-hunter-fanon/images/f/ff/Bungee_Gum.gif/revision/latest?cb=20210421190151',
+
+ 	'https://i.imgur.com/EdDQLap.gif',
+
+ 	'https://gifdb.com/images/high/hisoka-morow-slow-walk-sxeabhh5vdic24on.gif',
+
+ 	'https://img.wattpad.com/2ec4753d9d396b114fc4e497e0ee6dd1498ed56d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4d497365324e76534569594c6f413d3d2d3632313339383337312e313534636630356165613336316561613636313532313532313138392e676966',
+/images-profile-flow/400/images/artworkimages/mediumlarge/3/hisoka-justin-gian-santos.jpg',
+  
   // Add more image URLs here...
 ];
 
