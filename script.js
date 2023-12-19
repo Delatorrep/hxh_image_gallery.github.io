@@ -80,9 +80,6 @@ shuffledImages.forEach((imageUrl) => {
 
   const image = document.createElement('img');
   image.src = imageUrl;
-  image.style.width = '100%';
-  image.style.height = 'auto'; // Maintain aspect ratio
-  image.alt = ''; // Remove alt attribute
 
   slide.appendChild(image);
   slideshowContainer.appendChild(slide);
