@@ -6,7 +6,7 @@
 }
 
 .mySlides img {
-  width: 600px; /* Set your desired width */
-  height: auto; /* Height auto maintains aspect ratio */
-  object-fit: contain; /* Maintain aspect ratio without stretching */
+  max-width: 600px; /* Set your desired max-width */
+  width: auto;
+  height: auto;
 }
